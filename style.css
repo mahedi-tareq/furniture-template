@@ -208,8 +208,7 @@ a.cbtn:hover {
   padding: 0;
 }
 .navbar-brand img {
-  height: 28px;
-  width: auto;
+  width: 200px;
   display: block;
   filter: brightness(10%);
   -webkit-transition: all 0.3s ease-out;
@@ -265,7 +264,7 @@ a.cbtn:hover {
   color: #707070 !important;
 }
 .nav-item.active .nav-link {
-  color: #777 !important;
+  color: #1e3974;
 }
 .nav-link {
   position: relative;
@@ -383,17 +382,6 @@ a.nav-link {
 	Hero Area
 ====================================================================
 ***/
-/* .top-header .container {
-  max-width: 1524px;
-}
-
-.top-header .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 0;
-  margin-left: auto;
-} */
 
 .top-header {
   background: rgb(245 247 248);
@@ -427,6 +415,10 @@ a.nav-link {
   padding: 20px 0;
   align-items: center;
   text-transform: uppercase;
+}
+
+img.hero-slider-img {
+    cursor: pointer;
 }
 .slide-btn {
   border: 2px solid #61a4dc;
